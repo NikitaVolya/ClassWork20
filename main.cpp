@@ -30,7 +30,7 @@ int main()
 	case 2:
 		std::cout << "Kilograms: ";
 		std::cin >> number;
-		std::cout << "Is " << Bit::transform(number) << " grams";
+		std::cout << "Is " << Gram::transform(number) << " grams";
 		break;
 	}
 
