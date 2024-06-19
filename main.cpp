@@ -23,7 +23,7 @@ int main()
 	switch (choice)
 	{
 	case 1:
-		std::cout << "Kbtyes: ";
+		std::cout << "Kbytes: ";
 		std::cin >> number;
 		std::cout << "Is " << Bit::transform(number) << " bits";
 		break;
